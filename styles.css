@@ -1,45 +1,57 @@
-/* Base */
 body {
-  font-family: Arial, sans-serif;
-  background: #f5f0fa;
+  font-family: "Times New Roman", serif;
+  background: #fef6ff;
   margin: 0;
   padding: 20px;
   text-align: center;
 }
+
 h1 {
-  color: #6b3fa0;
+  color: #8230a7;
+  margin-bottom: 10px;
 }
 
-/* Grid de materias */
-#malla {
+.semestre-titulo {
+  font-size: 1.5em;
+  color: #9a4dc0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.malla {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 15px;
-  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 0 20px;
 }
 
-/* Tarjeta de materia */
 .materia {
-  background: #e6e0f0;
-  border: 2px solid #c0a8e0;
-  border-radius: 8px;
-  padding: 12px;
+  background: #f3d8ff;
+  border: 2px solid #d08fe7;
+  border-radius: 10px;
+  padding: 10px;
   cursor: pointer;
   transition: transform 0.2s, background 0.2s;
-}
-.materia:hover {
-  transform: scale(1.05);
+  box-shadow: 2px 2px 6px rgba(120, 0, 180, 0.1);
 }
 
-/* Estados */
+.materia:hover {
+  transform: scale(1.04);
+  background: #efd0ff;
+}
+
 .locked {
-  background: #ddd6e5;
+  background: #e4e4e4;
   border-style: dashed;
   color: #888;
   cursor: not-allowed;
 }
+
 .approved {
-  background: #d8bfd8;
-  border-color: #b388da;
-  color: #4a235a;
+  background: #d0ffe0;
+  border-color: #74d19c;
+  color: #225533;
 }
