@@ -1,0 +1,45 @@
+/* Base */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f0fa;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: #6b3fa0;
+}
+
+/* Grid de materias */
+#malla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Tarjeta de materia */
+.materia {
+  background: #e6e0f0;
+  border: 2px solid #c0a8e0;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+.materia:hover {
+  transform: scale(1.05);
+}
+
+/* Estados */
+.locked {
+  background: #ddd6e5;
+  border-style: dashed;
+  color: #888;
+  cursor: not-allowed;
+}
+.approved {
+  background: #d8bfd8;
+  border-color: #b388da;
+  color: #4a235a;
+}
