@@ -57,9 +57,9 @@ h1 {
   cursor: not-allowed;
 }
 
-/* Estado: aprobada */
+/* Estado: aprobada (nuevo color) */
 .approved {
-  background: #c5f3d8;
-  border-color: #73c59c;
-  color: #225533;
+  background: #d9c3e3;
+  border-color: #ba7ad6;
+  color: #4a2d5d;
 }
