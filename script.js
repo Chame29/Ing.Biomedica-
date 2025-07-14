@@ -68,10 +68,12 @@ const materias = [
   { name: "Bioética", prereq: [], creditos: 2, semestre: 7 },
 
   // SEMESTRE 8
-{ name: "Práctica de Profundización I", prereq: ["Desarrollo de Habilidades sociales"], creditos: 6, semestre: 8 },
+  { name: "Práctica de Profundización I", prereq: ["Desarrollo de Habilidades sociales"], creditos: 6, semestre: 8 },
+  { name: "Electiva sociohumanística II", prereq: [], creditos: 2, semestre: 8 },
 
-// SEMESTRE 9
-{ name: "Práctica de Profundización II", prereq: ["Práctica de Profundización I"], creditos: 6, semestre: 9 }
+  // SEMESTRE 9
+  { name: "Práctica de Profundización II", prereq: ["Práctica de Profundización I"], creditos: 6, semestre: 9 }
+];
 
 const aprobadas = new Set();
 
